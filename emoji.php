@@ -1,5 +1,9 @@
 <?php
 
+/**
+* @author Bruce Chen (@一个开发者) <662005@qq.com>
+*/
+
 $GLOBALS['emoji_maps'] = array(
 
 	"\xe2\x98\x80" => 'BLACK SUN WITH RAYS',
@@ -743,8 +747,8 @@ function is_contains_emoji ($text) {
 }
 
 
-//测试
-var_dump(is_contains_emoji("asdasdasd" . "\xe2\x9c\x85" . "瓦大大是大厦" . "\xf0\x9f\x94\x83"));
+//test
+//var_dump(is_contains_emoji("asdasdasd" . "\xe2\x9c\x85" . "瓦大大是大厦" . "\xf0\x9f\x94\x83"));
 
 
 
